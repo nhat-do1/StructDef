@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><preferences stamp="9">
+	<com.4d>
+		<compiler>
+			<options compilation_path="3" syntax_file="true"/>
+		</compiler>
+		<general component_classStore_name="StructTool"/>
+		<web>
+			<standalone_server>
+				<rest launch_at_startup="true"/>
+			</standalone_server>
+		</web>
+	</com.4d>
+</preferences>

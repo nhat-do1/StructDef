@@ -1,0 +1,29 @@
+{
+	"Classes": {
+		"classes": [
+			"StructDef"
+		]
+	},
+	"Forms": {
+		"forms": [
+			"Fields",
+			"Results Fields",
+			"Results Relations",
+			"Results Tables",
+			"Search"
+		]
+	},
+	"Methods": {
+		"methods": [
+			"openStructDefFinder",
+			"parseStructDefHTML"
+		]
+	},
+	"Tables": {
+		"tables": [
+			"Employees",
+			"Managers"
+		]
+	},
+	"trash": {}
+}

@@ -1,0 +1,130 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "Results",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"List Box": {
+					"type": "listbox",
+					"left": 23,
+					"top": 50,
+					"width": 612,
+					"height": 343,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"selectionMode": "single",
+					"dataSource": "Form:C1466.resRelations",
+					"listboxType": "collection",
+					"columns": [
+						{
+							"header": {
+								"text": "Relation Name",
+								"name": "Header1"
+							},
+							"name": "Column1",
+							"footer": {
+								"name": "Footer1"
+							},
+							"dataSource": "This:C1470.name",
+							"width": 200,
+							"textAlign": "center"
+						},
+						{
+							"header": {
+								"name": "Header2",
+								"text": "From"
+							},
+							"name": "Column2",
+							"footer": {
+								"name": "Footer2"
+							},
+							"dataSource": "This:C1470.from",
+							"width": 200,
+							"textAlign": "center"
+						},
+						{
+							"header": {
+								"name": "Header3",
+								"text": "To"
+							},
+							"name": "Column3",
+							"footer": {
+								"name": "Footer3"
+							},
+							"dataSource": "This:C1470.to",
+							"width": 200,
+							"textAlign": "center"
+						}
+					]
+				},
+				"Text": {
+					"type": "text",
+					"text": "Relations Found:",
+					"top": 18,
+					"left": 23,
+					"width": 107,
+					"height": 16
+				},
+				"Input": {
+					"type": "input",
+					"left": 143,
+					"top": 18,
+					"width": 76,
+					"height": 17,
+					"dataSourceTypeHint": "number",
+					"enterable": false,
+					"focusable": false,
+					"dataSource": "Form:C1466.resRelations.length ? Form:C1466.resRelations.length : 0",
+					"textAlign": "left",
+					"fill": "transparent",
+					"borderStyle": "none"
+				}
+			}
+		}
+	],
+	"geometryStamp": 16,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "method.4dm"
+}

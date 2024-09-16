@@ -1,0 +1,89 @@
+{
+	"_method_": {
+		"openStructDefFinder": {
+			"Syntax": "**openStructDefFinder**() : Variant",
+			"Params": [
+				[
+					"",
+					"Variant",
+					"<-"
+				]
+			],
+			"Summary": ""
+		}
+	},
+	"cs.StructTool": {
+		"StructDef": {
+			"new()": {
+				"Syntax": "**.new**()",
+				"Params": [],
+				"Summary": ""
+			}
+		}
+	},
+	"StructDef": {
+		"findRelations()": {
+			"Syntax": "**.findRelations**( *tableName* : Text; *relType* : Integer ) : Variant",
+			"Params": [
+				[
+					"tableName",
+					"Text",
+					"->"
+				],
+				[
+					"relType",
+					"Integer",
+					"->"
+				],
+				[
+					"",
+					"Variant",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"findFields()": {
+			"Syntax": "**.findFields**( *prop* : Text; *val* : Variant ) : Variant",
+			"Params": [
+				[
+					"prop",
+					"Text",
+					"->"
+				],
+				[
+					"val",
+					"Variant",
+					"->"
+				],
+				[
+					"",
+					"Variant",
+					"<-"
+				]
+			],
+			"Summary": ""
+		},
+		"findTables()": {
+			"Syntax": "**.findTables**( *prop* : Text; *val* : Variant ) : Variant",
+			"Params": [
+				[
+					"prop",
+					"Text",
+					"->"
+				],
+				[
+					"val",
+					"Variant",
+					"->"
+				],
+				[
+					"",
+					"Variant",
+					"<-"
+				]
+			],
+			"Summary": ""
+		}
+	}
+}
